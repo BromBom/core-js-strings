@@ -223,7 +223,7 @@ function startsWith(str, substr) {
  *   endsWith('Hello World', 'Hello') => false
  */
 function endsWith(str, substr) {
-  return str.endWith(substr);
+  return str.endsWith(substr);
 }
 
 /**
